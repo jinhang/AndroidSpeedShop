@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="当前服务器设置">
+        <EditTextPreference android:persistent="true" android:title="数据服务器地址" android:key="data_server" android:summary="http://api.m.koudai.com/" android:defaultValue="http://api.m.koudai.com/" android:dialogTitle="数据服务器地址" />
+        <EditTextPreference android:persistent="true" android:title="广告服务器地址" android:key="update_server" android:summary="http://api2.m.koudai.com/" android:defaultValue="http://api2.m.koudai.com/" android:dialogTitle="广告服务器地址" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="快速服务器切换">
+        <Preference android:title="切换到正式服务器" android:key="switch_formal_server" android:summary="切换到在服务器设置中配置的正式服务器地址" />
+        <Preference android:title="切换到测试服务器" android:key="switch_test_server" android:summary="切换到在服务器设置中配置的测试服务器地址" />
+        <Preference android:title="服务器设置" android:key="server_config" android:summary="配置快速切换时所用的正式和测试服务器地址">
+            <intent android:targetPackage="com.geili.koudai" android:targetClass="com.geili.koudai.activity.DebugServerConfigActivity" />
+        </Preference>
+        <Preference android:title="恢复默认服务器设置" android:key="switch_default_server" android:summary="恢复到软件安装时的服务器设置" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="日志设置">
+        <CheckBoxPreference android:title="日志开关" android:key="logable" />
+        <CheckBoxPreference android:persistent="true" android:title="日志输出到控制台" android:key="logable_console" android:dependency="logable" android:defaultValue="true" />
+        <CheckBoxPreference android:title="日志输出到文件" android:key="logable_file" android:dependency="logable" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其他操作">
+        <Preference android:title="发送错误日志" android:key="commit_errorlog" android:summary="通过邮件发送错误报告给开发人员" />
+        <Preference android:title="软件安装信息" android:key="installInfo" android:summary="" />
+    </PreferenceCategory>
+</PreferenceScreen>

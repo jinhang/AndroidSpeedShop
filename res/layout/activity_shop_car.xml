@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+     <RelativeLayout
+        style="@style/TitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+           <ImageView
+               android:id="@id/back"
+               style="@style/Title_Button_Back"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:clickable="true" />
+
+        <TextView
+            android:id="@id/title"
+            style="@style/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购物车列表" />
+    </RelativeLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="5dp"
+         android:layout_weight="1"
+         android:orientation="vertical" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="350dp"
+             android:layout_margin="10dp"
+             android:layout_weight="0.8"
+             android:orientation="vertical" >
+             <ListView 
+                 android:id="@+id/list"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"></ListView>
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="20dp"
+             android:layout_weight="0.1"
+             android:orientation="vertical"
+             >
+
+             <TextView
+                 android:id="@+id/sumprice"
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="190dip"
+                 android:text="合计："
+                 android:textSize="18.0sp" />
+
+             </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_weight="0.1"
+             android:orientation="vertical" >
+
+             <Button
+                 android:id="@+id/okpay"
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:layout_margin="10dp"
+                 android:background="@drawable/red_button"
+                 android:gravity="center"
+                 android:text="付款走人"
+                 android:textSize="18.0sp"
+                 android:textColor="#ffffffff"
+                 />
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_weight="0.1"
+             android:orientation="vertical" >
+
+             <Button
+                 android:id="@+id/scan"
+                 android:layout_width="fill_parent"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center"
+                 android:layout_margin="10dp"
+                 android:background="@drawable/red_button"
+                 android:gravity="center"
+                 android:text="扫描物品"
+                 android:textColor="#ffffffff"
+                 android:textSize="18.0sp" />
+         </LinearLayout>
+     </LinearLayout>
+</LinearLayout>  

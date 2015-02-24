@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="正式服务器设置">
+        <EditTextPreference android:persistent="true" android:title="数据服务器地址" android:key="data_server_config" android:summary="@string/data_server" android:defaultValue="@string/data_server" android:dialogTitle="数据服务器地址" />
+        <EditTextPreference android:persistent="true" android:title="广告服务器地址" android:key="update_server_config" android:summary="@string/update_server" android:defaultValue="@string/update_server" android:dialogTitle="广告服务器地址" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="测试服务器设置">
+        <EditTextPreference android:persistent="true" android:title="数据服务器地址" android:key="test_data_server_config" android:summary="@string/test_data_server" android:defaultValue="@string/test_data_server" android:dialogTitle="数据服务器地址" />
+        <EditTextPreference android:persistent="true" android:title="广告服务器地址" android:key="test_update_server_config" android:summary="@string/test_update_server" android:defaultValue="@string/test_update_server" android:dialogTitle="升级及广告服务器地址" />
+    </PreferenceCategory>
+</PreferenceScreen>

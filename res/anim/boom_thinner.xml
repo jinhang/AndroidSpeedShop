@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="59" android:drawable="@drawable/bzl_10003" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10004" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10005" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10006" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10007" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10008" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10009" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10010" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10010" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10011" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10012" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10013" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10014" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10015" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10016" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10017" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10018" />
+    <item android:duration="59" android:drawable="@drawable/bzl_10019" />
+</animation-list>

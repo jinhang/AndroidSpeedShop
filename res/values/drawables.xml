@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="shoplist_item_bg_pressed">#ffdedede</item>
+    <item type="drawable" name="translucent_background">#e0000000</item>
+    <item type="drawable" name="conver_item_bg_press">#19000000</item>
+    <item type="drawable" name="transparent_drawable">#00ffffff</item>
+    <item type="drawable" name="shop_bg1">#ffffe5ba</item>
+    <item type="drawable" name="shop_bg2">#ffd5e1b3</item>
+    <item type="drawable" name="shop_bg3">#ffbddeef</item>
+    <item type="drawable" name="conver_default">#ffdadada</item>
+    <item type="drawable" name="pic_normal_pressed">#fff45000</item>
+    <item type="drawable" name="babysource_click_h">#fffffbd3</item>
+    <item type="drawable" name="theme_shap">#44000000</item>
+    <item type="drawable" name="picwall_default">#ffebebeb</item>
+    <item type="drawable" name="channel_mask">#88000000</item>
+    <item type="drawable" name="message_item_bg_pressed">#ffdadbdb</item>
+    <item type="drawable" name="message_item_bg_normal">#fff7f8f8</item>
+</resources>

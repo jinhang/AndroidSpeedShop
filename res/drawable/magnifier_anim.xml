@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="42" android:drawable="@drawable/magnifier1" />
+    <item android:duration="42" android:drawable="@drawable/magnifier2" />
+    <item android:duration="42" android:drawable="@drawable/magnifier3" />
+    <item android:duration="42" android:drawable="@drawable/magnifier4" />
+    <item android:duration="42" android:drawable="@drawable/magnifier5" />
+    <item android:duration="42" android:drawable="@drawable/magnifier6" />
+    <item android:duration="42" android:drawable="@drawable/magnifier7" />
+    <item android:duration="42" android:drawable="@drawable/magnifier8" />
+    <item android:duration="42" android:drawable="@drawable/magnifier9" />
+    <item android:duration="42" android:drawable="@drawable/magnifier10" />
+    <item android:duration="42" android:drawable="@drawable/magnifier11" />
+    <item android:duration="42" android:drawable="@drawable/magnifier12" />
+    <item android:duration="42" android:drawable="@drawable/magnifier13" />
+    <item android:duration="42" android:drawable="@drawable/magnifier14" />
+    <item android:duration="42" android:drawable="@drawable/magnifier15" />
+    <item android:duration="42" android:drawable="@drawable/magnifier16" />
+    <item android:duration="42" android:drawable="@drawable/magnifier17" />
+    <item android:duration="42" android:drawable="@drawable/magnifier18" />
+    <item android:duration="42" android:drawable="@drawable/magnifier19" />
+    <item android:duration="42" android:drawable="@drawable/magnifier20" />
+    <item android:duration="42" android:drawable="@drawable/magnifier21" />
+    <item android:duration="42" android:drawable="@drawable/magnifier22" />
+    <item android:duration="42" android:drawable="@drawable/magnifier23" />
+    <item android:duration="42" android:drawable="@drawable/magnifier24" />
+</animation-list>
